@@ -2,7 +2,7 @@ import argparse
 
 def get_input_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('data_dir', type = str, default = 'flower_data/', help = 'path to the folder of flower images') 
+    parser.add_argument('data_dir', type = str, default = 'flower_data/', help = 'path to the folder of flower images, just folder name, no slashes') 
     parser.add_argument('--save_dir', type = str, default = 'checkpoints/', help = 'Directory to save checkpoints') 
     parser.add_argument('--arch', type = str, default = 'vgg13', help = "Selected architecture") 
     parser.add_argument('--learning_rate', type = float, default = 0.01)
