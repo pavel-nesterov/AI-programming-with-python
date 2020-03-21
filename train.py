@@ -16,6 +16,6 @@ def get_input_args():
     print("Argument 3:", in_args.learning_rate)
     return in_args
 
-print("1")
+print("Train aruments successfully imported")
 
-get_input_args()
+#get_input_args()
