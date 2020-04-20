@@ -11,6 +11,7 @@ import helper
 #import import_the_checkpoint
 from collections import OrderedDict
 import save_load_model
+from workspace_utils import active_session 
 
 
 
