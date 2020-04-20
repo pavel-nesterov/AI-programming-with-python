@@ -7,7 +7,7 @@ from torch import nn
 from torch import optim
 import time
 #from workspace_utils import active_session
-import helper
+#import helper
 #import import_the_checkpoint
 from collections import OrderedDict
 import save_load_model
